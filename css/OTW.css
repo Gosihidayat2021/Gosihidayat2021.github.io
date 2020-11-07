@@ -62,10 +62,10 @@ li a:hover:not(.active) {
 }
 .center {
     position: absolute;
-    top: 0%;
+    top: 30%;
     width: 100%;
     text-align: center;
-    font-size: 90px;
+    font-size: 120px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: chocolate;
     text-shadow: 10px 10px 10px black;
@@ -73,7 +73,7 @@ li a:hover:not(.active) {
   }
   .center2 {
     position: absolute;
-    top: 27%;
+    top: 38%;
     width: 100%;
     text-align: center;
     font-size: 90px;
@@ -200,47 +200,102 @@ li a:hover:not(.active) {
     background-color: darkred;
     color: white;
         }
-.footer{
-    padding: 10px;
-    background-color: rgb(49, 30, 3);
+/* Contact */
+p {
+	color : #999;
+	line-height: 25px;
+	text-align: center;
 }
-.footer .container2{
-    width: 100%;
-    margin-left: 20px;
-    display: flex;
+h2,h3 {
+	color: #fff;
+	text-align: center;
 }
-.footer .container2 .row {
-    display: flex;
-    width: auto;
-    margin: auto;
-    color: white;
-    position: relative;
-    text-align: center;
+h2 {
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 80px;
 }
-.footer.container2 .row .col1{
-    width: 233px;
-    margin: auto;
-    padding: 5px 5px 5px 5px;
-    position: relative;
-    text-align: center;
-    line-height: 1.6em ;
+ul
+{
+	text-align: center;
 }
-.footer.container2 .row .col2{
-    width: 233px;
-    margin: auto;
-    padding: 5px 5px 5px 5px;
-    position: relative;
-    text-align: center;
-    line-height: 1.6em ;
+.footer-top {
+	background: rgb(16, 11, 56) ;
+	padding: 80px 0;
 }
-.footer.container2 .row .col3{
-    width: 233px;
-    margin: auto;
-    padding: 5px 5px 5px 5px;
-    position: relative;
-    text-align: center;
-    line-height: 1.6em ;
+.segment-one h3 {
+	font-family: 'Segoe UI';
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
 }
+.segment-two h3 {
+	font-family: 'Segoe UI';
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+
+.segment-two ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.segment-two ul li {
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	line-height: 40px;
+}
+.segment-two ul li a {
+	color: #999;
+	text-decoration: none;
+}
+.segment-three h2 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+.segment-three h2::before {
+	content: '|' ;
+	color: goldenrod;
+	padding-right: 10px;
+}
+.segment-three a {
+	background: #494848;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.segment-three a i {
+	font-size: 20px;
+	padding: 10px 12px;
+	color: skyblue;
+
+}
+.segment-four {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+.segment-three h2::before {
+	content: '|' ;
+	color: goldenrod;
+	padding-right: 10px;
+}
+.segment-four [type=submit] {
+	align-items: center;
+	background: goldenrod;
+	border: none;
+	padding: 3px 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+form 
+{
+	text-align:  center;
+}
+    
 /* FOOTER */
 /* shop */
 .container3{
