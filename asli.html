@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script language='JavaScript'>
+        var txt="Formulir Pemesanan Barang | MEGA Furniture";
+        var speed=300;
+        var refresh=null;
+        function action() { document.title=txt;
+        txt=txt.substring(1,txt.length)+txt.charAt(0);
+        refresh=setTimeout("action()",speed);}action();
+        </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="logo"><img src="img/Logo.png"></li>
+            <li class="logoin"><img src="img/logoin.png"> </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop and Category</a></li>
+            <li><a href="gallery.html">Galery</a></li>
+            <li><a href="faq.html">Faq</a></li>
+            <li class="login"><a href="login.html">Log In</a></li>
+        </ul>
+    </header>
+    <div class="container"> 
+        <h1 class="tulisan">Formulir Pemesanan Barang</h1>
+            <form action="">
+                <table class="tabel">
+                    <tr>
+                        <td><label>Nama </label></td>
+                        <td>:  <input type="text" name="nama" placeholder="Nama lengkap..." class="input" /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Username </label></td>
+                        <td>:  <input type="text" name="username" placeholder="Username..." class="input"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email </label></td>
+                        <td>:  <input type="text" name="email" placeholder="Masukkan Email..." class="input" /></td>
+                    </tr>
+                    <tr>
+                        <td><label>No.Telp  </label></td>
+                        <td>:  <input type="number" name="no.telp" placeholder="Masukkan No.Telp..." class="input"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis kelamin </label></td>
+                        <td>:  <input type="radio" name="jenis_kelamin" value="laki-laki"class="input" /> Laki-laki</td>
+                        <td><input type="radio" name="jenis_kelamin" value="perempuan" class="input"/> Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td><label>Agama   </label></td>
+                        <td>:  <select name="agama" class="input">
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="budha">Budha</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Tanggal Lahir </label></td>
+                        <td>:  <input type="date" name="tanggal"class="input" /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Umur </label></td>
+                        <td>:  <input type="number" name="umur" class="input"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Alamat </label></td>
+                        <td>:  <textarea type="text" name="Alanat" placeholder="Alamat Rumah Anda..."class="input"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Jenis Pesanan </label></td>
+                        <td>:  <input type="text" name="nama_barang" placeholder="Nama Barang..."class="input" /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Kode Barang </label></td>
+                        <td>:  <input type="text" name="kode_barang" placeholder="Seri Barang..." class="input"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Jumlah Barang </label></td>
+                        <td>:  <input type="number" name="jumlah_barang" placeholder="Jumlah Barang..."class="input" /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Catatan Pembeli </label></td>
+                        <td>:  <textarea name="Notepad" placeholder="Notepad..."class="input"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label><input type="checkbox"name="Remember" value="Remember"> Konfirmasi Pemesanan</label></td>
+                    </tr>
+                    <tr>
+                        <td><a href="asli.html"></a><input type="submit" value="Submit" class="submit" onclick="runPopUp()"/></td>
+                    </tr>
+                </table>
+            </form>
+            
+    </div>
+    <script type="text/javascript">
+		function runPopUp(){
+			window.alert("Formulir Anda Sudah Terekam Sistem!");
+		};
+	</script>
+</body>
+</html>
