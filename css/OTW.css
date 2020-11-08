@@ -111,7 +111,104 @@ li a:hover:not(.active) {
   }
 .grid-container{
     display: inline;
+    text-decoration: none;
 }
+.grid-container3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.foto {
+   overflow: hidden;
+   background-color: #E9E9E9;
+}
+.foto img {
+   width: 380px;
+   height: 308px;
+   border: 10px solid #fff;
+   }
+.foto .foto1 {
+   width: 425px;
+   float: left;
+   position: relative;
+   padding: 15px 2px 15px 15px;
+   margin-left: 25px;
+   }
+.foto .foto1 .text1 {
+   width: 180px;
+   position: absolute;
+   top: 60px;
+   right: 80px;
+   text-decoration: none;
+   }
+.foto .foto1 .text1 p {
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   position: relative;
+   right: 65px;
+   background-color: chocolate;
+   }
+.foto .foto1 .text1 button{
+   border-radius: 3px;
+   border: none;
+   background-color: darkred;
+   color: white;
+   }
+   a{
+       text-decoration: none;
+   }
+.foto .foto2 {
+    width: 425px;
+   float: left;
+   position: relative;
+   padding: 15px 2px 15px 15px;
+   }
+.foto .foto2 .text2 {
+   width: 180px;
+   position: absolute;
+   top: 60px;
+   right: 65px;
+   }
+.foto .foto2 .text2 p {
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   position: relative;
+   right: 65px;
+   background-color: chocolate;
+   }
+.foto .foto2 .text2 button{
+   border-radius: 3px;
+   border: none;
+   background-color: darkred;
+   color: white;
+   }
+.foto .foto3 {
+   width: 425px;
+   float: left;
+   position: relative;
+   padding: 15px 2px 15px 15px;
+   }
+.foto .foto3 .text3 {
+   width: 180px;
+   position: absolute;
+   top: 60px;
+   right: 65px;
+   }
+.foto .foto3 .text3 p {
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   position: relative;
+   right: 65px;
+   background-color: chocolate;
+   }
+.foto .foto3 .text3 button{
+   border-radius: 3px;
+   border: none;
+   background-color: darkred;
+   color: white;
+       }
 .foto {
 	overflow: hidden;
 	background-color: #E9E9E9;
@@ -128,21 +225,10 @@ li a:hover:not(.active) {
 	padding: 15px 2px 15px 15px;
 	margin-left: 25px;
 	}
-.foto .foto1 .text1 {
-	width: 180px;
-	position: absolute;
-	top: 60px;
-	right: 80px;
-	}
-.foto .foto1 .text1 p {
-	color: #fff;
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    right: 65px;
-    background-color: chocolate;
-    }
-.foto .foto1 .text1 button{
+
+.nama1 button{
+    width: 380px;
+    height: 30px;
     border-radius: 3px;
     border: none;
     background-color: darkred;
@@ -154,52 +240,72 @@ li a:hover:not(.active) {
     position: relative;
     padding: 15px 2px 15px 15px;
     }
-.foto .foto2 .text2 {
-    width: 180px;
-    position: absolute;
-    top: 60px;
-    right: 65px;
-    }
-.foto .foto2 .text2 p {
-	color: #fff;
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    right: 65px;
-    background-color: chocolate;
-    }
-.foto .foto2 .text2 button{
-    border-radius: 3px;
-    border: none;
-    background-color: darkred;
-    color: white;
-    }
+    .nama2 button{
+        width: 380px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        background-color: darkred;
+        color: white;
+        }
 .foto .foto3 {
     width: 425px;
     float: left;
     position: relative;
     padding: 15px 2px 15px 15px;
     }
-.foto .foto3 .text3 {
-    width: 180px;
-    position: absolute;
-    top: 60px;
-    right: 65px;
-    }
-.foto .foto3 .text3 p {
-	color: #fff;
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    right: 65px;
-    background-color: chocolate;
-    }
-.foto .foto3 .text3 button{
-    border-radius: 3px;
-    border: none;
-    background-color: darkred;
-    color: white;
+    .nama3 button{
+        width: 380px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        background-color: darkred;
+        color: white;
         }
+        .foto .foto4 {
+            width: 425px;
+            float: left;
+            position: relative;
+            padding: 15px 2px 15px 15px;
+            margin-left: 25px;
+            }
+        
+        .nama4 button{
+            width: 380px;
+            height: 30px;
+            border-radius: 3px;
+            border: none;
+            background-color: darkred;
+            color: white;
+            }
+        .foto .foto5 {
+             width: 425px;
+            float: left;
+            position: relative;
+            padding: 15px 2px 15px 15px;
+            }
+            .nama5 button{
+                width: 380px;
+                height: 30px;
+                border-radius: 3px;
+                border: none;
+                background-color: darkred;
+                color: white;
+                }
+        .foto .foto6 {
+            width: 425px;
+            float: left;
+            position: relative;
+            padding: 15px 2px 15px 15px;
+            }
+            .nama6 button{
+                width: 380px;
+                height: 30px;
+                border-radius: 3px;
+                border: none;
+                background-color: darkred;
+                color: white;
+                }
 /* Contact */
 p {
 	color : #999;
@@ -309,7 +415,7 @@ form
   }
 .centershop {
     position: absolute;
-    top: 15%;
+    top: 28%;
     width: 100%;
     text-align: center;
     font-size: 40px;
@@ -330,7 +436,7 @@ form
   }
   .centershop3 {
     position: absolute;
-    top: 45%;
+    top: 40%;
     width: 100%;
     text-align: center;
     font-size: 40px;
@@ -338,185 +444,3 @@ form
     color: chocolate;
     text-shadow: 10px 10px 10px black;
   }
- .grid-container3{
-     text-align: center;
- }
- .foto {
-	overflow: hidden;
-	background-color: #E9E9E9;
-}
-.foto img {
-	width: 380px;
-	height: 308px;
-	border: 10px solid #fff;
-	}
-.foto .foto1 {
-	width: 425px;
-    float: left;
-	position: relative;
-	padding: 15px 2px 15px 15px;
-	margin-left: 25px;
-	}
-.foto .foto1 .text1 {
-	width: 180px;
-	position: absolute;
-	top: 60px;
-	right: 80px;
-	}
-.foto .foto1 .text1 p {
-	color: #fff;
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    right: 65px;
-    background-color: chocolate;
-    }
-.foto .foto1 .text1 button{
-    border-radius: 3px;
-    border: none;
-    background-color: darkred;
-    color: white;
-    }
-.foto .foto2 {
-     width: 425px;
-    float: left;
-    position: relative;
-    padding: 15px 2px 15px 15px;
-    }
-.foto .foto2 .text2 {
-    width: 180px;
-    position: absolute;
-    top: 60px;
-    right: 65px;
-    }
-.foto .foto2 .text2 p {
-	color: #fff;
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    right: 65px;
-    background-color: chocolate;
-    }
-.foto .foto2 .text2 button{
-    border-radius: 3px;
-    border: none;
-    background-color: darkred;
-    color: white;
-    }
-.foto .foto3 {
-    width: 425px;
-    float: left;
-    position: relative;
-    padding: 15px 2px 15px 15px;
-    }
-.foto .foto3 .text3 {
-    width: 180px;
-    position: absolute;
-    top: 60px;
-    right: 65px;
-    }
-.foto .foto3 .text3 p {
-	color: #fff;
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    right: 65px;
-    background-color: chocolate;
-    }
-.foto .foto3 .text3 button{
-    border-radius: 3px;
-    border: none;
-    background-color: darkred;
-    color: white;
-        }
-        .grid-container3{
-            text-align: center;
-        }
-        .foto {
-           overflow: hidden;
-           background-color: #E9E9E9;
-       }
-       .foto img {
-           width: 380px;
-           height: 308px;
-           border: 10px solid #fff;
-           }
-       .foto .foto1 {
-           width: 425px;
-           float: left;
-           position: relative;
-           padding: 15px 2px 15px 15px;
-           margin-left: 25px;
-           }
-       .foto .foto1 .text1 {
-           width: 180px;
-           position: absolute;
-           top: 60px;
-           right: 80px;
-           }
-       .foto .foto1 .text1 p {
-           color: #fff;
-           font-size: 24px;
-           text-align: center;
-           position: relative;
-           right: 65px;
-           background-color: chocolate;
-           }
-       .foto .foto1 .text1 button{
-           border-radius: 3px;
-           border: none;
-           background-color: darkred;
-           color: white;
-           }
-       .foto .foto2 {
-            width: 425px;
-           float: left;
-           position: relative;
-           padding: 15px 2px 15px 15px;
-           }
-       .foto .foto2 .text2 {
-           width: 180px;
-           position: absolute;
-           top: 60px;
-           right: 65px;
-           }
-       .foto .foto2 .text2 p {
-           color: #fff;
-           font-size: 24px;
-           text-align: center;
-           position: relative;
-           right: 65px;
-           background-color: chocolate;
-           }
-       .foto .foto2 .text2 button{
-           border-radius: 3px;
-           border: none;
-           background-color: darkred;
-           color: white;
-           }
-       .foto .foto3 {
-           width: 425px;
-           float: left;
-           position: relative;
-           padding: 15px 2px 15px 15px;
-           }
-       .foto .foto3 .text3 {
-           width: 180px;
-           position: absolute;
-           top: 60px;
-           right: 65px;
-           }
-       .foto .foto3 .text3 p {
-           color: #fff;
-           font-size: 24px;
-           text-align: center;
-           position: relative;
-           right: 65px;
-           background-color: chocolate;
-           }
-       .foto .foto3 .text3 button{
-           border-radius: 3px;
-           border: none;
-           background-color: darkred;
-           color: white;
-               }
