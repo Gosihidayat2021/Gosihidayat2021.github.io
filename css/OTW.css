@@ -114,8 +114,10 @@ li a:hover:not(.active) {
     text-decoration: none;
 }
 .grid-container3{
-    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container3 h1{
+    text-align: center;
 }
 .foto {
    overflow: hidden;
