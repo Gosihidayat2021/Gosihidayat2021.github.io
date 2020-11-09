@@ -64,9 +64,9 @@ header{
 {
 	width: 1200px;
 	height: 600px;
-	background: #1e2c1d;
+	background: #b39120;
 	display: flex; 
-	margin: 120px auto;
+	margin: 40px auto;
 }
 .col
 {
@@ -86,11 +86,11 @@ header{
 
 .col:nth-child(1)
 {
-	background: #1e2c1d; 
+	background: #b39120;
 }
 .col:nth-child(2)
 {
-	background: #1e2c1d; 
+	background: #b39120;
 }
 
 h2
@@ -108,7 +108,7 @@ h2
 }
 .caption p 
 {
-	color: gold;
+	color: rgb(255, 255, 255);
 }
 .caption button
 {
