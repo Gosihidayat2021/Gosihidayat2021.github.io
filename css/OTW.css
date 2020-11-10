@@ -134,7 +134,7 @@ li a:hover:not(.active) {
    float: left;
    position: relative;
    padding: 15px 2px 15px 15px;
-   margin-left: 50px;
+   margin-left: 30px;
    }
 .foto .foto1 .text1 {
    width: 180px;
@@ -165,7 +165,6 @@ li a:hover:not(.active) {
    float: left;
    position: relative;
    padding: 15px 2px 15px 15px;
-    margin-left: 45px;
    }
 .foto .foto2 .text2 {
    width: 180px;
@@ -189,10 +188,9 @@ li a:hover:not(.active) {
    }
 .foto .foto3 {
    width: 425px;
-   float: right;
+   float: left;
    position: relative;
    padding: 15px 2px 15px 15px;
-   margin-right: 50px;
    }
 .foto .foto3 .text3 {
    width: 180px;
@@ -238,7 +236,7 @@ li a:hover:not(.active) {
     }
 .container88 .formm .email{
     padding-left: 40px;
-    margin-right: -45%;
+    margin-right: -46%;
     font-family: Arial, Helvetica, sans-serif;
     }
 .container88 .formm .nama{
@@ -254,7 +252,7 @@ li a:hover:not(.active) {
     }
  .container88 .formm .pesan{
     margin-top: 22%;
-    margin-left: -69%;
+    margin-left: -70%;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     }
