@@ -62,10 +62,10 @@ li a:hover:not(.active) {
 }
 .center {
     position: absolute;
-    top: 30%;
+    top: 0%;
     width: 100%;
     text-align: center;
-    font-size: 120px;
+    font-size: 90px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: chocolate;
     text-shadow: 10px 10px 10px black;
@@ -73,7 +73,7 @@ li a:hover:not(.active) {
   }
   .center2 {
     position: absolute;
-    top: 38%;
+    top: 28%;
     width: 100%;
     text-align: center;
     font-size: 90px;
@@ -127,13 +127,14 @@ li a:hover:not(.active) {
    width: 380px;
    height: 308px;
    border: 10px solid #fff;
+   position: relative;
    }
 .foto .foto1 {
    width: 425px;
    float: left;
    position: relative;
    padding: 15px 2px 15px 15px;
-   margin-left: 25px;
+   margin-left: 50px;
    }
 .foto .foto1 .text1 {
    width: 180px;
@@ -164,6 +165,7 @@ li a:hover:not(.active) {
    float: left;
    position: relative;
    padding: 15px 2px 15px 15px;
+    margin-left: 45px;
    }
 .foto .foto2 .text2 {
    width: 180px;
@@ -187,9 +189,10 @@ li a:hover:not(.active) {
    }
 .foto .foto3 {
    width: 425px;
-   float: left;
+   float: right;
    position: relative;
    padding: 15px 2px 15px 15px;
+   margin-right: 50px;
    }
 .foto .foto3 .text3 {
    width: 180px;
@@ -211,103 +214,63 @@ li a:hover:not(.active) {
    background-color: darkred;
    color: white;
        }
-.foto {
-	overflow: hidden;
-	background-color: #E9E9E9;
+.container88{
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    }
+    .container88 h1{
+        text-align: center;
+        width: auto;
+        height: auto;
+        font-size: 15px;
+    }
+    .container88 h1 .judul{
+        text-align: center;
+    }
+.container88 .formm{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40%;
+    font-size: 15px;
+    }
+.container88 .formm .email{
+    padding-left: 40px;
+    margin-right: -45%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+.container88 .formm .nama{
+    padding-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    }    
+.container88 .formm .notelp{
+    padding-right: 170px;
+    margin-top: 100px;
+    margin-right: 33%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+ .container88 .formm .pesan{
+    margin-top: 22%;
+    margin-left: -69%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    }
+.container99{
+    text-align: center;
+    padding-right: 16.5%;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
-.foto img {
-	width: 380px;
-	height: 308px;
-	border: 10px solid #fff;
-	}
-.foto .foto1 {
-	width: 425px;
-    float: left;
-	position: relative;
-	padding: 15px 2px 15px 15px;
-	margin-left: 25px;
-	}
-
-.nama1 button{
-    width: 380px;
-    height: 30px;
-    border-radius: 3px;
-    border: none;
-    background-color: darkred;
-    color: white;
-    }
-.foto .foto2 {
-     width: 425px;
-    float: left;
-    position: relative;
-    padding: 15px 2px 15px 15px;
-    }
-    .nama2 button{
-        width: 380px;
-        height: 30px;
-        border-radius: 3px;
-        border: none;
-        background-color: darkred;
-        color: white;
-        }
-.foto .foto3 {
-    width: 425px;
-    float: left;
-    position: relative;
-    padding: 15px 2px 15px 15px;
-    }
-    .nama3 button{
-        width: 380px;
-        height: 30px;
-        border-radius: 3px;
-        border: none;
-        background-color: darkred;
-        color: white;
-        }
-        .foto .foto4 {
-            width: 425px;
-            float: left;
-            position: relative;
-            padding: 15px 2px 15px 15px;
-            margin-left: 25px;
-            }
-        
-        .nama4 button{
-            width: 380px;
-            height: 30px;
-            border-radius: 3px;
-            border: none;
-            background-color: darkred;
-            color: white;
-            }
-        .foto .foto5 {
-             width: 425px;
-            float: left;
-            position: relative;
-            padding: 15px 2px 15px 15px;
-            }
-            .nama5 button{
-                width: 380px;
-                height: 30px;
-                border-radius: 3px;
-                border: none;
-                background-color: darkred;
-                color: white;
-                }
-        .foto .foto6 {
-            width: 425px;
-            float: left;
-            position: relative;
-            padding: 15px 2px 15px 15px;
-            }
-            .nama6 button{
-                width: 380px;
-                height: 30px;
-                border-radius: 3px;
-                border: none;
-                background-color: darkred;
-                color: white;
-                }
+.container77{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(172, 83, 51);
+    text-shadow: 0 2px 2px black;
+    text-align: center;
+    font-size: 30px;
+}
 /* Contact */
 p {
 	color : #999;
@@ -327,9 +290,15 @@ ul
 {
 	text-align: center;
 }
+.contact{
+    width: auto;
+    height: a;
+}
 .footer-top {
 	background: rgb(16, 11, 56) ;
-	padding: 80px 0;
+    padding: 1px 0;
+    width: auto;
+    height: auto;
 }
 .segment-one h3 {
 	font-family: 'Segoe UI';
@@ -358,7 +327,7 @@ ul
 	text-decoration: none;
 }
 .segment-three h2 {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: fantasy;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -403,46 +372,3 @@ form
 {
 	text-align:  center;
 }
-    
-/* FOOTER */
-/* shop */
-.container3{
-    position: relative;
-    width: 100%;
-}
-.container3 img{
-    width: 100%;
-    height: auto;
-    opacity: 50%;
-  }
-.centershop {
-    position: absolute;
-    top: 28%;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: chocolate;
-    text-shadow: 10px 10px 10px black;
-    
-  }
-  .centershop2 {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(172, 83, 51);
-    text-shadow: 4px 10px 10px rgb(107, 63, 63);
-  }
-  .centershop3 {
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    text-align: center;
-    font-size: 40px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: chocolate;
-    text-shadow: 10px 10px 10px black;
-  }
