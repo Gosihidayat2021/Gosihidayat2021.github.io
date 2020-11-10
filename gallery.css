@@ -64,9 +64,8 @@ header{
 {
 	width: 1200px;
 	height: 600px;
-	background: #1e2c1d;
+	background: #704b06;
 	display: flex; 
-	margin: 120px auto;
 }
 .col
 {
@@ -122,3 +121,80 @@ h2
 	font-size: 12px;
 
 }
+.footer-top {
+	background: rgb(16, 11, 56) ;
+	padding: 80px 0;
+}
+.segment-one h3 {
+	font-family: 'Segoe UI';
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+.segment-two h3 {
+	font-family: 'Segoe UI';
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+
+.segment-two ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.segment-two ul li {
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	line-height: 40px;
+}
+.segment-two ul li a {
+	color: #999;
+	text-decoration: none;
+}
+.segment-three h2 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+.segment-three h2::before {
+	content: '|' ;
+	color: goldenrod;
+	padding-right: 10px;
+}
+.segment-three a {
+	background: #494848;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.segment-three a i {
+	font-size: 20px;
+	padding: 10px 12px;
+	color: skyblue;
+
+}
+.segment-four {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+.segment-three h2::before {
+	content: '|' ;
+	color: goldenrod;
+	padding-right: 10px;
+}
+.segment-four [type=submit] {
+	align-items: center;
+	background: goldenrod;
+	border: none;
+	padding: 3px 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+form 
+{
+	text-align:  center;
+}
+    
