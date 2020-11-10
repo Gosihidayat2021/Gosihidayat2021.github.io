@@ -1,0 +1,395 @@
+*{
+    box-sizing: border-box;
+}
+header{
+padding: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e1ac00;
+    opacity: 80%;
+    box-shadow: 0 5px 5px black;
+}
+li.logo{
+    float: left;
+    margin-left: 3%;
+}
+li.logo img{
+    margin: auto;
+    display: block;
+    max-height: 50%;
+    height: 50px;
+    padding-top: 5px;
+}
+li.login{
+    float: right;
+    margin-right: 0%;
+}
+li.logoin{
+    float: right;
+    margin-right: 8%;
+}
+li.logoin img{
+    margin: auto;
+    display: block;
+    max-height: 50%;
+    height: 40px;
+    padding-top: 5px;
+    align-items: center;
+    margin-top: 8px;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 36px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.grid-container{
+    display: inline;
+    text-decoration: none;
+}
+.grid-container3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid-container3 h1{
+    text-align: center;
+}
+.foto {
+   overflow: hidden;
+   background-color: #E9E9E9;
+}
+.foto img {
+   width: 380px;
+   height: 308px;
+   border: 10px solid #fff;
+   }
+.foto .foto1 {
+   width: 425px;
+   float: left;
+   position: relative;
+   padding: 15px 2px 15px 15px;
+   margin-left: 25px;
+   }
+.foto .foto1 .text1 {
+   width: 180px;
+   position: absolute;
+   top: 60px;
+   right: 80px;
+   text-decoration: none;
+   }
+.foto .foto1 .text1 p {
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   position: relative;
+   right: 65px;
+   background-color: chocolate;
+   }
+.foto .foto1 .text1 button{
+   border-radius: 3px;
+   border: none;
+   background-color: darkred;
+   color: white;
+   }
+   a{
+       text-decoration: none;
+   }
+.foto .foto2 {
+    width: 425px;
+   float: left;
+   position: relative;
+   padding: 15px 2px 15px 15px;
+   }
+.foto .foto2 .text2 {
+   width: 180px;
+   position: absolute;
+   top: 60px;
+   right: 65px;
+   }
+.foto .foto2 .text2 p {
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   position: relative;
+   right: 65px;
+   background-color: chocolate;
+   }
+.foto .foto2 .text2 button{
+   border-radius: 3px;
+   border: none;
+   background-color: darkred;
+   color: white;
+   }
+.foto .foto3 {
+   width: 425px;
+   float: left;
+   position: relative;
+   padding: 15px 2px 15px 15px;
+   }
+.foto .foto3 .text3 {
+   width: 180px;
+   position: absolute;
+   top: 60px;
+   right: 65px;
+   }
+.foto .foto3 .text3 p {
+   color: #fff;
+   font-size: 24px;
+   text-align: center;
+   position: relative;
+   right: 65px;
+   background-color: chocolate;
+   }
+.foto .foto3 .text3 button{
+   border-radius: 3px;
+   border: none;
+   background-color: darkred;
+   color: white;
+       }
+.foto {
+	overflow: hidden;
+	background-color: #E9E9E9;
+}
+.foto img {
+	width: 380px;
+	height: 308px;
+	border: 10px solid #fff;
+	}
+.foto .foto1 {
+	width: 425px;
+    float: left;
+	position: relative;
+	padding: 15px 2px 15px 15px;
+	margin-left: 25px;
+	}
+
+.nama1 button{
+    width: 380px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    background-color: darkred;
+    color: white;
+    }
+.foto .foto2 {
+     width: 425px;
+    float: left;
+    position: relative;
+    padding: 15px 2px 15px 15px;
+    }
+    .nama2 button{
+        width: 380px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        background-color: darkred;
+        color: white;
+        }
+.foto .foto3 {
+    width: 425px;
+    float: left;
+    position: relative;
+    padding: 15px 2px 15px 15px;
+    }
+    .nama3 button{
+        width: 380px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        background-color: darkred;
+        color: white;
+        }
+        .foto .foto4 {
+            width: 425px;
+            float: left;
+            position: relative;
+            padding: 15px 2px 15px 15px;
+            margin-left: 25px;
+            }
+        
+        .nama4 button{
+            width: 380px;
+            height: 30px;
+            border-radius: 3px;
+            border: none;
+            background-color: darkred;
+            color: white;
+            }
+        .foto .foto5 {
+             width: 425px;
+            float: left;
+            position: relative;
+            padding: 15px 2px 15px 15px;
+            }
+            .nama5 button{
+                width: 380px;
+                height: 30px;
+                border-radius: 3px;
+                border: none;
+                background-color: darkred;
+                color: white;
+                }
+        .foto .foto6 {
+            width: 425px;
+            float: left;
+            position: relative;
+            padding: 15px 2px 15px 15px;
+            }
+            .nama6 button{
+                width: 380px;
+                height: 30px;
+                border-radius: 3px;
+                border: none;
+                background-color: darkred;
+                color: white;
+                }
+   
+/* FOOTER */
+/* shop */
+.container3{
+    position: relative;
+    width: 100%;
+}
+.container3 img{
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+  }
+.centershop {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+    text-shadow: 10px 10px 10px black;
+    
+  }
+  .centershop2 {
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(172, 83, 51);
+    text-shadow: 4px 10px 10px rgb(107, 63, 63);
+  }
+  .centershop3 {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: chocolate;
+    text-shadow: 10px 10px 10px black;
+  }
+/* Contact */
+p {
+	color : #999;
+	line-height: 25px;
+	text-align: center;
+}
+h2,h3 {
+	color: #fff;
+	text-align: center;
+}
+h2 {
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 80px;
+}
+ul
+{
+	text-align: center;
+}
+.footer-top {
+	background: rgb(16, 11, 56) ;
+	padding: 1px 0;
+}
+.segment-one h3 {
+	font-family: 'Segoe UI';
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+.segment-two h3 {
+	font-family: 'Segoe UI';
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 10px 0;
+}
+
+.segment-two ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.segment-two ul li {
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+	line-height: 40px;
+}
+.segment-two ul li a {
+	color: #999;
+	text-decoration: none;
+}
+.segment-three h2 {
+	font-family: fantasy;
+	color: #fff;
+	text-transform: uppercase;
+}
+.segment-three h2::before {
+	content: '|' ;
+	color: goldenrod;
+	padding-right: 10px;
+}
+.segment-three a {
+	background: #494848;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.segment-three a i {
+	font-size: 20px;
+	padding: 10px 12px;
+	color: skyblue;
+
+}
+.segment-four {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+.segment-three h2::before {
+	content: '|' ;
+	color: goldenrod;
+	padding-right: 10px;
+}
+.segment-four [type=submit] {
+	align-items: center;
+	background: goldenrod;
+	border: none;
+	padding: 3px 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+form 
+{
+	text-align:  center;
+}
