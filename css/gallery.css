@@ -60,6 +60,16 @@ header{
 	li a:hover:not(.active) {
 		background-color: #111;
 	}
+h1{
+	text-align: center;
+	color: chocolate ;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+	padding-top: 30px;
+	text-shadow: 0px 5px 5px black;
+	font-size: 40px;
+
+}
 .container 
 {
 	width: 1200px;
@@ -109,6 +119,9 @@ h2
 .caption p 
 {
 	color: rgb(255, 255, 255);
+	padding-top: 80px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
 }
 .caption button
 {
