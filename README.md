@@ -4,3 +4,5 @@ MEGA Furniture
 Anggota : 
 NUR WAHYU GOSI HIDAYAT (192410102021)
 Indy Falachy (192410102076)
+
+Gosihidayat2021.github.io
