@@ -63,7 +63,7 @@ header{
     li a:hover:not(.active) {
         background-color: #111;
     }
-.container{
+.kontainer{
     width: 50%;
     margin: auto;
     background-color: white;
