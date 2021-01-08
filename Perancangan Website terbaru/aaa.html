@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="aaa.js"></script>
+</head>
+<body style="background-color:  #437575;">
+    <form name ="document" action="tugas.html" method="POST">
+        <table>
+            <tr>
+                <h1 style="text-align: center;" style="margin: auto;"> LOGIN </h1>
+            </tr>
+            <tr>
+                <td><label>Username:</label><br></td>
+                <td><input type="text" name="username" placeholder="Username..."/></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td><br>
+                <td><input type="text" name="email" placeholder="email.." /></td>
+            </tr>
+            <tr>
+                <td><label>Nomor hp:</label></td>
+                <td><input type="number" name="nomor hp" placeholder="Nomor hp..." /></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td><br>
+                <td><input type="password" name="password" placeholder="password..." /></td>
+            </tr>
+            <tr>
+                <td><p class="remember-me"></td> 
+                <td><label><input type="checkbox" name="remember" value="remember" /> Remember me</label></td>
+            </tr>
+            <tr>
+                <td><input type="button"  value="Registrasi" onClick ="cetakTabel()"/></td>
+            </tr>
+        </table>
+    </form>
+    <div class="tabell">
+    <table id="tabel">
+        <thead>
+            <th scope="col">Username</th>
+            <th scope="col">Email</th>
+            <th scope="col">Nomor Hp</th>
+            <th scope="col">Password</th>
+        </thead>
+    </table>
+    </div>
+</body>
+</html>
