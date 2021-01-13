@@ -1,117 +1,533 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-}
-body{
-    background-color: lightgrey;
-    padding-bottom: 2%;
-    margin: auto;
-}
-header{
-    padding: 5px;
-    }
-    ul {
-        list-style-type: none;
-        margin: auto;
-        padding: 0;
-        overflow: hidden;
-        background-color: #e1ac00;
-        opacity: 80%;
-        box-shadow: 0 5px 5px black;
-    }
-    li.logo{
-        float: left;
-        margin-left: 3%;
-    }
-    li.logo img{
-        margin: auto;
-        display: block;
-        max-height: 50%;
-        height: 50px;
-        padding-top: 5px;
-    }
-    li.login{
-        float: right;
-        margin-right: 0%;
-    }
-    li.logoin{
-        float: right;
-        margin-right: 8%;
-    }
-    li.logoin img{
-        margin: auto;
-        display: block;
-        max-height: 50%;
-        height: 40px;
-        padding-top: 5px;
-        align-items: center;
-        margin-top: 8px;
-    }
-    li {
-        float: left;
-    }
-    
-    li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 24px 36px;
-        text-decoration: none;
-    }
-    
-    li a:hover:not(.active) {
-        background-color: #111;
-    }
-.kontainer{
-    width: 50%;
-    margin: auto;
-    background-color: white;
-    border-radius: 10px;
-    color: black;
-    box-shadow: 0 5px 5px black;
-    margin-top: 20px;
-}
-form{
-    text-shadow: 0 2px 2px black;
+* {
+  box-sizing: border-box;
 }
 
-.tulisan {
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: bold;
-    padding: 5px;
-    
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-table{
-    margin: auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-.tabel td{
-    padding-top: 15px;
-}
-input{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.input{
-    border-radius: 4px;
-}
-textarea{
-    border-radius: 4px;
 
+/********** Start Col ************/
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-select{
-    border-radius: 4px;
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
 }
-input[type=submit]{
-    padding: 5px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    border-radius: 3px;
-    text-align: center;
-    box-align: center;
-    background-color: darkred;
-    color: ghostwhite;
-    box-shadow: 1px 1px 1px 1px rgb(118, 43, 43);
+
+@media screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100% !important;
+  }
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+  height: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] img {
+  width: 100%;
+  height: auto
+}
+
+/********** End Col ********/
+/***** Start Navbar ********/
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #437575;
+  opacity: 0.8;
+  padding: 0 50px;
+  box-shadow: 0 5px 5px black;
+}
+
+.topnav .login {
+  float: right
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav img {
+  margin: 14px 16px;
+  height: 40px;
+  width: 40px;
+  float: left;
+  display: block;
+}
+
+.topnav a:hover {
+  background-color: #404040;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #404040;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .account {
+    display: none !important;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
     position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
+
+/******* End Navbar *******/
+/**** Start Jumbotron ****/
+
+.container img {
+  width: 100%;
+  height: auto;
+  opacity: 130%;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container .center {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 90px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: chocolate;
+  text-shadow: 10px 10px 10px black;
+}
+
+.container .center2 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-shadow: 4px 10px 10px rgb(107, 63, 63);
+}
+
+.container .center3 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+.container .center4 {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container .center5 {
+  position: absolute;
+  top: 7%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: chocolate;
+  text-shadow: 10px 10px 10px black;
+}
+
+.container .center6 {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  text-shadow: 4px 10px 10px rgb(107, 63, 63);
+}
+
+
+
+.container .center7 {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: chocolate;
+  text-shadow: 10px 10px 10px black;
+}
+
+.container .center8 {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: chocolate;
+  text-shadow: 10px 10px 10px black;
+}
+
+.container .center9 {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: chocolate;
+  text-shadow: 10px 10px 10px black;
+}
+
+.container .center10 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(252, 252, 252);
+  text-shadow: 10px 10px 10px black;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container .center{
+    font-size: 40px !important;
+  }
+  .container .center2{
+    font-size: 40px !important;
+  }
+  .container .center3{
+    font-size: 30px !important;
+  }
+  .container .center6{
+    font-size: px !important;
+  }
+  .container .center5,.center7,.center8,.center9,.center10{
+    font-size: 20px !important;
+  }
+}
+
+.center4 button {
+  width: 221px;
+  height: 35px;
+  border: none;
+  background-color: darkred;
+  color: white;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  opacity: 80%;
+}
+
+/********** Start general *********/
+
+
+.frame {
+  border: 10px solid #fff;
+}
+
+.btn-marron {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: darkred;
+  border: none;
+}
+
+.btn-brown {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #513821;
+  border: none;
+}
+.btn-yellow {
+  background-color: #ecd714;
+  color :rgb(0, 0, 0);
+  padding: 10px;
+
+}
+
+.btn-outline {
+  border: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  padding: 8px 18px;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.color-red {
+  color: red
+}
+
+.color-grey {
+  color: #999
+}
+
+.color-white {
+  color: white
+}
+
+.background-color-gold {
+  background-color: rgba(62, 102, 107, 0.39)
+}
+
+.form-control input, textarea {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.form-control p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.form-reversed{
+  padding:10px 50px; background-image:url('../image/gallery/img2.jpg');  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.form-subscribe input{
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+/**********FAQ**********/
+
+
+.segmen2{
+	float: center;
+	width: 100%;
+}
+
+.faq {
+	width: 100%;
+	height: 35px;
+	
+}
+.konten{
+	width: 100%; 
+	padding-right: 15px; 
+	padding-left: 15px; 
+	margin-left: 150px;
+}
+
+/*********** login ***********/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url(); 
+	background-size: cover;
+	background-position: center; 
+}
+
+.log-in-form
+{
+	width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background: #fff;
+	padding: 20px;
+	margin: 8% auto;
+	text-align: center;
+	padding-left: 30px;
+}
+
+.log-in-form h1
+{
+	color: black;
+	margin-bottom: 30px;
+
+}
+
+.input-box
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #999;
+	outline: none;
+}
+button
+{
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	margin: auto;
+	outline: none;
+	cursor: pointer;
+}
+
+.email-btn {
+	background-color: #fff;
+	color: black;
+	
+
+}
+.facebook-btn {
+	background-color: #3b5998;
+}
+.google-btn {
+	background-color: #21afde;
+}
+a
+{
+	text-decoration: none;
+}
+hr
+{
+	margin-top: 20px;
+	width: 80%;
+}
+i
+{
+	margin-right: 25%;
+}
+.or 
+{
+	background: #fff;
+	width: 30px;
+	margin: -19px auto 10px; 
+}
+
+/******** aaa ********/
+
+table {
+  border: 4px double black;
+  border-color: black;
+  padding: 10px;
+  align-content: center;
+  margin: auto;
+}
+.tabell table tr td{
+  border: 4px double black;
+  border-color: black;
+  padding: 10px;
+  align-content: center;
+  background-size: auto;
+}
+table tr td {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 4px black;
+  border-color: black;
+  padding: 10px;
+  margin: auto;
+}
+
