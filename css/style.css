@@ -21,11 +21,6 @@ body {
   padding: 15px;
 }
 
-@media screen and (max-width: 600px) {
-  [class*="col-"] {
-    width: 100% !important;
-  }
-}
 
 .col-1 {
   width: 8.33%;
@@ -41,7 +36,6 @@ body {
 
 .col-4 {
   width: 33.33%;
-  height: 33.33%;
 }
 
 .col-5 {
@@ -81,6 +75,11 @@ body {
   height: auto
 }
 
+@media screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100% !important;
+  }
+}
 /********** End Col ********/
 /***** Start Navbar ********/
 
@@ -110,7 +109,7 @@ body {
 .topnav img {
   margin: 14px 16px;
   height: 40px;
-  width: 40px;
+  /* width: 40px; */
   float: left;
   display: block;
 }
@@ -142,9 +141,6 @@ body {
     float: right;
     display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
   .topnav.responsive {
     position: relative;
   }
@@ -163,8 +159,8 @@ body {
 }
 
 /******* End Navbar *******/
-/**** Start Jumbotron ****/
 
+/**** Start Jumbotron ****/
 .container img {
   width: 100%;
   height: auto;
